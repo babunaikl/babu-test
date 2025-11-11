@@ -9,7 +9,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo "Cloning repository..."
-                git branch: 'main', url: 'https://github.com/babunaikl/narasimha.git'
+                git branch: 'main', url: 'https://github.com/babunaikl/babu-test.git'
             }
         }
 
