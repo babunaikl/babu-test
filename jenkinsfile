@@ -33,7 +33,7 @@ pipeline {
 
     post {
         success {
-            echo '✅ Deployment succeeded!'
+            echo '✅ Hello Babu, your Deployment succeeded!'
         }
         failure {
             echo '❌ Deployment failed!'
